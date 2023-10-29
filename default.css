@@ -15,11 +15,11 @@
 		}
 
 		90% {
-			transform: translateX(1200px) translateY(-80px) rotate(-22.5deg) scale(0.9);
+			transform: translateX(1200px) translateY(-80px) rotate(-8deg) scale(0.9);
 		}
 
 		100% {
-			transform: translateX(1300px) translateY(-150px) rotate(-22.5deg) scale(0.8);
+			transform: translateX(1400px) translateY(-120px) rotate(-8deg) scale(0.8);
 		}
 	}
 
@@ -99,12 +99,16 @@
 	.image img {
 		display: block;
 		width: 100%;
+
 	}
 
-	.image-full {
-		display: block;
-		width: 100%;
-		margin: 0;
+	.image.image-full {
+		position: relative;
+		transition: all 1s ease-in-out;
+	}
+
+	.image.image-full:hover {
+		transform: scale(1.1) rotate(360deg);
 	}
 
 	.image-left {
