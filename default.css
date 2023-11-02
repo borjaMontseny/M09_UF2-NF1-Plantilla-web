@@ -32,7 +32,10 @@
 
 	.box a.image.image-full:hover+a span {
 		color: #0000FF;
-		/* Cambia el color a azul */
+	}
+
+	.button:hover {
+		background-color: #FFDAB9;
 	}
 
 	html,
