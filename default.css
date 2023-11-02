@@ -30,6 +30,11 @@
 		top: 260px;
 	}
 
+	.box a.image.image-full:hover+a span {
+		color: #0000FF;
+		/* Cambia el color a azul */
+	}
+
 	html,
 	body {
 		height: 100%;
@@ -101,6 +106,7 @@
 		width: 100%;
 
 	}
+
 
 	.image.image-full {
 		position: relative;
